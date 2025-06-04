@@ -1,0 +1,40 @@
+/* עיצוב כללי לדף */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333333;
+  margin: 20px;
+  padding: 0;
+  direction: rtl; /* עברית מימין לשמאל */
+}
+
+/* כותרות */
+h1 {
+  color: #2c3e50;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 10px;
+}
+
+/* תפריט ניווט */
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #1abc9c;
+  text-decoration: underline;
+}
+
+/* פסקאות */
+p {
+  line-height: 1.6;
+  font-size: 16px;
+}
